@@ -1,10 +1,19 @@
+/* wieport smartphone  */
+
 /* inserimento queery first div lezioni  */
 
 @media screen and (max-width: 420px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .row {
     width: 100%;
     margin-top: 0;
   }
+
+  /* selettore per prendere tutto il contenuto dei due elementi */
 
   #lezioni .row > .left,
   #lezioni .row > .right {
@@ -14,6 +23,12 @@
     background-color: rgb(211, 155, 135);
     padding-bottom: 15px;
   }
+
+  #lezioni:hover {
+    background-color: darkgreen;
+    color: floralwhite;
+  }
+
   #lezioni .row > .right {
     margin-top: 25px;
   }
@@ -30,4 +45,24 @@
     width: 50%;
     height: 100%;
   }
+
+  /* inserimento queery second div steps */
+
+  #steps h1 {
+    color: orange;
+  }
+
+  /* selettore  uguale al precendente  */
+
+  #steps .row>.left, #steps .row>.central, #steps .row>.right  {      
+    width: 100%;
+    padding: 20px 50px;
+    float: none;
+
+  /* inserimento queery third div why */
+
+
+
+
+  
 }
