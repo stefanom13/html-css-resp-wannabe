@@ -1,0 +1,33 @@
+/* inserimento queery first div lezioni  */
+
+@media screen and (max-width: 420px) {
+  .row {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    float: none;
+    width: 100%;
+  }
+  #lezioni {
+    background-color: rgb(211, 155, 135);
+    padding-bottom: 15px;
+  }
+  #lezioni .row > .right {
+    margin-top: 25px;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  img {
+    width: 220px;
+  }
+}
