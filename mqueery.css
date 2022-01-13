@@ -54,15 +54,45 @@
 
   /* selettore  uguale al precendente  */
 
-  #steps .row>.left, #steps .row>.central, #steps .row>.right  {      
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
     width: 100%;
     padding: 20px 50px;
     float: none;
+  }
+
+  .left:hover {
+    background-color: chartreuse;
+  }
+  .central:hover {
+    background-color: violet;
+  }
+  .right:hover {
+    background-color: darkorange;
+  }
 
   /* inserimento queery third div why */
+  #why h1 {
+    color: black;
+  }
+  #why .row {
+    background-color: lightgrey;
+  }
+  #why h1:hover {
+    color: lightseagreen;
+  }
 
+  #why .row:hover {
+    background-color: lightcoral;
+    color: rebeccapurple;
+  }
 
-
-
-  
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 0;
+    padding: 12px 10px;
+  }
 }
