@@ -8,7 +8,6 @@
 
   #lezioni .row > .left,
   #lezioni .row > .right {
-    float: none;
     width: 100%;
   }
   #lezioni {
@@ -25,9 +24,10 @@
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   img {
-    width: 220px;
+    width: 50%;
+    height: 100%;
   }
 }
