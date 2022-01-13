@@ -5,21 +5,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
   }
 
-}
-.row {
-  width: 100%;
-  margin-top: 0;
-}
+  .row {
+    width: 100%;
+    margin-top: 0;
+  }
 
-#lezioni .row:hover{
+  #lezioni .row:hover {
     background-color: forestgreen;
-}
-
-
-
+  }
 
   h1 {
     font-size: 30px;
@@ -31,30 +26,24 @@
 
   /* second  */
 
-  #steps .row:hover{
-      background-color: goldenrod;
+  #steps .row:hover {
+    background-color: goldenrod;
   }
 
-
-
-
   /* third  */
-  
+
   #why .row > .first,
   #why .row > .second,
   #why .row > .third {
     width: 100%;
     margin-top: 0;
     padding: 10px 10px;
-    
   }
-  #why .row:hover{
+  #why .row:hover {
     background-color: rgba(152, 155, 114, 0.859);
-}
-
-  .row h1{
-      padding-top: 20px;
   }
 
-
+  .row h1 {
+    padding-top: 20px;
+  }
 }
